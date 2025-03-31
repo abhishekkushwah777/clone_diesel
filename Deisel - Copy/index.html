@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>diesel 2</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<!-- navbar starts from here -->
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="#">MAN</a>
+            <a href="#">WOMAN</a>
+            <a href="#">KID</a>
+            <a href="#">SS25</a>
+            <a href="#">SALE</a>
+        </div>
+        <div class="icons">
+            <div class="icon-box"><svg viewBox="0 0 24 24"><path style="transform: translate(10%, 10%);" d="M7.134 11.313C5.374 10.284 4.27 8.856 4.03 6.884c-.21-1.714.298-3.257 1.492-4.542 2.388-2.6 6.508-2.658 8.985-.143 1.344 1.371 1.881 3.028 1.583 4.885-.299 1.886-1.374 3.258-3.045 4.229.209.086.418.143.627.229 2.179.857 3.85 2.257 5.014 4.228.568 1 .926 2.057 1.075 3.2.06.314-.179.6-.537.629-.269.057-.567-.172-.597-.486a8.183 8.183 0 00-.896-2.6c-1.074-2.029-2.746-3.429-4.955-4.229a8.739 8.739 0 00-3.224-.428c-1.82.143-3.433.771-4.836 1.914-1.592 1.257-2.617 2.857-3.074 4.8-.06.2-.09.372-.12.572-.06.285-.328.485-.567.485-.328-.057-.597-.285-.567-.6.03-.371.09-.743.209-1.085.925-3.229 3.075-5.372 6.328-6.572.06-.019.13-.038.21-.057zm2.955-9.971c-.447 0-.895.057-1.343.171-1.373.429-2.418 1.229-3.104 2.429-.567.942-.747 1.942-.567 3.028.209 1.086.776 1.972 1.641 2.686 1.165.943 2.508 1.343 4 1.171 1.373-.171 2.508-.771 3.373-1.828.806-.943 1.165-2.057 1.015-3.286-.09-.886-.447-1.686-.985-2.371-1.015-1.258-2.358-1.943-4.03-2z"/></svg></div>
+            <div class="icon-box"><svg viewBox="0 0 24 24"><path d="M19.174 20c-.16-.133-.32-.24-.48-.373-1.6-1.582-3.2-3.156-4.8-4.72-.054-.053-.107-.133-.16-.213-.32.24-.64.453-.934.64a8.26 8.26 0 01-3.306 1.146 8.179 8.179 0 01-5.014-.88C2.08 14.32.56 12.347.107 9.627c-.4-2.347.133-4.48 1.6-6.373C3.04 1.52 4.827.454 6.987.107c1.867-.32 3.653-.053 5.307.827 2.32 1.2 3.84 3.093 4.346 5.68.534 2.613-.106 4.96-1.813 7.013a1.063 1.063 0 00-.133.16s-.027 0-.027.053l.133.134a588.37 588.37 0 014.747 4.693c.16.16.293.347.453.507v.346a1.046 1.046 0 01-.48.48h-.346zM15.52 8.214c0-.24-.026-.534-.053-.8a6.592 6.592 0 00-1.2-3.12c-1.155-1.6-2.711-2.578-4.667-2.934a6.814 6.814 0 00-2.746.08 7.098 7.098 0 00-2.374.96c-1.013.694-1.84 1.547-2.4 2.64a6.937 6.937 0 00-.773 3.627 6.36 6.36 0 00.56 2.373c.613 1.414 1.6 2.507 2.96 3.28 1.573.907 3.253 1.147 5.013.8 1.307-.24 2.48-.853 3.467-1.76 1.44-1.386 2.187-3.093 2.213-5.146z"/></svg></div>
+            <div class="icon-box"><svg viewBox="0 0 24 24"><path d="M11.932 22l-6.928-7.798c-.527-.593-1.082-1.127-1.55-1.75-1.49-1.927-1.842-4.15-1.023-6.523.76-2.253 2.339-3.528 4.502-3.854 1.988-.297 3.654.444 5.057 2.075.146-.148.293-.267.439-.415a5.325 5.325 0 016.46-1.097c2.047 1.067 3.245 3.499 3.099 6.078-.117 1.513-.585 2.847-1.55 3.914-2.689 3.025-5.437 6.02-8.155 9.044-.059.089-.176.178-.351.326zm.029-1.305c.175-.178.292-.267.41-.415a981.059 981.059 0 007.395-8.213c1.959-2.194 1.959-5.456.03-7.62-1.93-2.135-4.853-2.135-6.87.03-.293.296-.527.681-.906 1.156-.38-.475-.614-.86-.907-1.186-1.257-1.335-2.748-1.898-4.472-1.453-1.871.474-3.1 1.779-3.655 3.825-.555 2.046-.029 3.825 1.287 5.307 1.87 2.106 3.77 4.151 5.642 6.257.672.74 1.374 1.512 2.046 2.312z"/></svg></div>
+			<div class="icon-box"><svg viewBox="0 0 24 24"><path style="transform: translate(10%, 10%);" d="M9.645.063h.613c1.032.29 1.645 1.032 2.129 1.935.645 1.194.968 2.516 1.097 3.87.032.259.129.388.419.356h3.419c.162.806.323 1.58.452 2.322.495 2.818 1 5.635 1.516 8.452.161.871.355 1.71.516 2.58 0 .065 0 .162-.032.162-.097.032-.194.032-.323.032-6.344 0-12.688-.01-19.032-.032-.097 0-.355.194-.322-.161 0 0 .032-.033.032-.065l1.806-9.806c.194-1.162.42-2.29.613-3.484h3.419c.29 0 .42-.032.452-.355.13-1.226.387-2.452.936-3.58.483-1 1.129-1.872 2.29-2.227zm8.677 18.451v-.193L16.387 7.772c-.065-.322-.226-.355-.484-.355-3.979.022-7.946.022-11.903 0-.355 0-.452.097-.516.42C3 10.675 2.45 13.514 1.935 16.353c-.129.71-.258 1.42-.387 2.161h16.774zM12.29 6.192c-.064-.452-.129-.871-.193-1.29-.226-1-.484-1.936-1.065-2.807-.71-1.065-1.484-1.065-2.161 0-.355.58-.613 1.226-.807 1.87-.226.71-.355 1.452-.516 2.227h4.742z"/></svg></div>
+        </div>
+    </nav>
+
+	<!-- navbar ends and hero section starts from here -->
+	
+	<section class="hero-sec-1">
+		<div class="btn-container">
+			<button>SHOP MAN</button>
+			<button>SHOP WOMAN</button>
+		</div>
+	</section>
+
+	<!-- hero poster 1 ends here -->
+
+	<section class="fresh-drops">
+		<p>FRESH DROPS JUST LANDED!</p>
+		<hr>
+		<div class="items-section">
+			<div class="item">
+				<div class="image" style="background-image: url(imgs/tshirt.jpeg); "></div>
+				<p class="title">Grey Denim-look T-shirt with released hems</p>
+				<p class="price">₹10,000</p>
+			</div>
+			<div class="item">
+				<div class="image" style="background-image: url(imgs/jean.jpeg); "></div>
+				<p class="title">Dark Blue Bootcut 2007 Zatiny L.32 Jeans</p>
+				<p class="price">₹18,000</p>
+			</div>
+			<div class="item">
+				<div class="image" style="background-image: url(imgs/download.jpeg);"></div>
+				<p class="title">Black Strapless bra with maxi logo</p>
+				<p class="price">₹5,000</p>
+			</div>
+			<div class="item">
+				<div class="image" style="background-image: url(imgs/tshirt2.jpeg);"></div>
+				<p class="title">Black T-shirt with Diesel Core print</p>
+				<p class="price">₹8,000</p>
+			</div>
+			<div class="item">
+				<div class="image" style="background-image: url(imgs/watch.jpg); "></div>
+				<p class="title">Black Dz4344 Watch</p>
+				<p class="price">₹19,995</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- fresh drop section ends here -->
+	<!-- find your fit section starts -->
+
+	<section class="fyf">
+		<div class="heading">
+			<h1 style="font-size: 40px;">FIND YOUR FIT</h1>
+			<br>
+			<h1><a href="#" style="color: red;">MAN</a> | <a href="#" style="color: black;">WOMAN</a></h1>
+			<br>
+			<p> Find your next denim among a wide range of<br>
+				timeless denim washes, icons of low impact style,<br>
+				better for people and the planet. 
+			</p>
+			<br>
+			<button class="btn-fyf">SHOP NOW</button>
+		</div>
+		<div class="fyf-imgs">
+			<div class="img-cont">
+				<img src="imgs/jskinny.jpg" alt="jskinny">
+				<p>SKINNY</p>
+			</div>
+			<div class="img-cont">
+				<img src="imgs/jslim.jpg" alt="jslim">
+				<P>SLIM</P>
+			</div>
+			<div class="img-cont">
+				<img src="imgs/jtapered.jpg" alt="jtapered">
+				<p>TAPERED</p>
+			</div>
+			<div class="img-cont">
+				<img src="imgs/jstraight.jpg" alt="jstraight">
+				<p>STRAIGHT</p>
+			</div>
+			<div class="img-cont">
+				<img src="imgs/jbootcut.jpg" alt="jbootcut">
+				<p>BOOTCUT</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- fyf section ends here -->
+	<!-- hero poster 2 starts here -->
+
+	<section class="hero-sec-1" style="background-image: url(imgs/hero-kids.png); margin-top: 40px;">
+		<div class="btn-container">
+			<button>Shop now</button>
+		</div>
+	</section>
+
+	<!-- hero poster 2 ends here -->
+	<!-- kids clothing section -->
+	
+	<section class="fresh-drops" style="background-color: white;">
+		<p>FOR THE BRAVE KIDS</p>
+		<hr>
+		<div class="items-section">
+			<div class="item-kids">
+				<div class="image" style="background-image: url(imgs/jean2.jpg); "></div>
+				<button class="btn-black">ADD TO CART</button>
+				<p class="title">Black Skinny Fit-Sleenker-Jeans</p>
+				<p class="price">₹4,999 <span style="color: grey; text-decoration: line-through;">9,999</span><span style="color: red;">(50%)</span></p>
+			</div>
+			<div class="item-kids">
+				<div class="image" style="background-image: url(imgs/tshirt3.jpeg); "></div>
+				<button class="btn-black">ADD TO CART</button>
+				<p class="title">White Peel-off T-shirt with dégradé logo</p>
+				<p class="price">₹14,000</p>
+			</div>
+			<div class="item-kids">
+				<div class="image" style="background-image: url(imgs/shorts.jpeg);"></div>
+				<button class="btn-black">ADD TO CART</button>
+				<p class="title">Blue Sweat shorts with Tiger Breaks trompe l'oeil</p>
+				<p class="price">₹13,000</p>
+			</div>
+			<div class="item-kids">
+				<div class="image" style="background-image: url(imgs/jacket.jpeg);"></div>
+				<button class="btn-black">ADD TO CART</button>
+				<p class="title">Grey Leather jacket with cracked coating</p>
+				<p class="price">₹65,000</p>
+			</div>
+			<div class="item-kids">
+				<div class="image" style="background-image: url(imgs/shorts2.jpeg); "></div>
+				<button class="btn-black">ADD TO CART</button>
+				<p class="title">Black Sweats shorts with Oval D embroidery</p>
+				<p class="price">₹13,000</p>
+			</div>
+		</div>
+	</section>
+	
+	<!-- kids clothing section ends here -->
+	<!-- categories section starts here -->
+
+	<section class="categories">
+		<div class="category-container">
+			<div class="category-item">
+				<img src="imgs/mens-top.jpg" alt="mens-topwear">
+				<p>MENS TOPWEAR</p>
+			</div>
+			<div class="category-item">
+				<img src="imgs/sneakers.jpg" alt="sneakers">
+				<p>SNEAKERS</p>
+			</div>
+			<div class="category-item">
+				<img src="imgs/men-denim.jpg" alt="men-denim">
+				<p>MENS DENIM</p>
+			</div>
+			<div class="category-item">
+				<img src="imgs/innerwear.jpg" alt="innerwear">
+				<p>INNERWEAR</p>
+			</div>
+			<div class="category-item">
+				<img src="imgs/women-apparel.jpg" alt="women-apparel">
+				<p>WOMEN APPAREL</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- FOOTER starts from here -->
+
+	<footer>
+		<section class="social">
+			<div>
+				<h1>Connect with us on social media</h1>
+				<p>
+					<span><a href="#"><img src="imgs/facebook-svgrepo-com.svg" alt="facebook"></a></span>
+					<span><a href="#"><img src="imgs/instagram-svgrepo-com.svg" alt="insta"></a></span>
+					<span><a href="#"><img src="imgs/youtube-168-svgrepo-com.svg" alt="youtube"></a></span>
+				</p>
+			</div>
+		</section>
+		<section class="policy">
+			<div class="menu">
+				<div class="col">
+					<h5>HELPDESK</h5>
+					<ul>
+						<li><a href="#">Order Status</a></li>
+						<li><a href="#">Delivery</a></li>
+						<li><a href="#">Returns</a></li>
+						<li><a href="#">Contact us</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h5>COOKIE POLICY & TERMS</h5>
+					<ul>
+						<li><a href="#">Privacy policy</a></li>
+						<li><a href="#">Shipping & Delivery Policy</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Returns & Refund Policy</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h5>WORLD OF DIESEL</h5>
+					<ul>
+						<li><a href="#">About Diesel</a></li>
+						<li><a href="#">For Responsible Living</a></li>
+						<li><a href="#">Only the Brave Foundation</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h5>STORE LOCATOR</h5>
+					<ul>
+					</ul>
+				</div>
+			</div>
+			<p class="copyright">Copyright ©️2021 Diesel Fashion India Reliance Pvt.Ltd</p>
+		</section>
+	</footer>
+</body>
+</html>
